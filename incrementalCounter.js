@@ -1,7 +1,7 @@
 let n = 10;
 
 const counter = () => {
-    return ++n;
+    return n++;
 }
 
 console.log("counter(): ",counter());
