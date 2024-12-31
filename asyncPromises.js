@@ -20,4 +20,4 @@ const promise = promiseAll([
   () => new Promise((resolve) => setTimeout(() => resolve(10), 150)),
   () => new Promise((resolve) => setTimeout(() => resolve(16), 100)),
 ]);
-promise.then(console.log); // [4,10,16]
+promise.then(console.log);
